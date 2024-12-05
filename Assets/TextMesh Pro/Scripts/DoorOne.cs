@@ -13,7 +13,8 @@ public class DoorOne : MonoBehaviour
         {
             timeline.Play();
             hasPlayed = true;
-            GetComponent<Collider>().enabled = false;
+            // GetComponent<Collider>().enabled = false;
+            gameObject.SetActive(false);
         }
     }
 }
